@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\bin\Debug\MathComparisonOperators.exe.config
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\bin\Debug\MathComparisonOperators.exe
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\bin\Debug\MathComparisonOperators.pdb
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\obj\Debug\MathComparisonOperators.csprojAssemblyReference.cache
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\obj\Debug\MathComparisonOperators.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\obj\Debug\MathComparisonOperators.exe
+C:\Users\Student\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\MathComparisonOperators\obj\Debug\MathComparisonOperators.pdb
