@@ -1,0 +1,6 @@
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\obj\Debug\Loop_Drill.csprojAssemblyReference.cache
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\bin\Debug\Loop_Drill.exe.config
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\bin\Debug\Loop_Drill.exe
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\bin\Debug\Loop_Drill.pdb
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\obj\Debug\Loop_Drill.exe
+C:\Users\conno\source\repos\Loop_Drill\Loop_Drill\obj\Debug\Loop_Drill.pdb
