@@ -13,6 +13,9 @@ namespace Inheritance
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             employee.SayName();
             Console.ReadLine();
+            IQuittable iQuitable = new Employee() { FirstName = "Connor", LastName = "Sharpe" };
+            iQuitable.Quit(employee);
+            Console.ReadLine();
         }
     }
 }

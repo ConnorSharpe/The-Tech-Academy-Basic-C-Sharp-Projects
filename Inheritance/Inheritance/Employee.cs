@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Inheritance
 {
-    public class Employee : Person
+    public class Employee : Person, IQuittable
     {
         public int Id { get; set; }
+        public void Quit(Employee employee)
+        {
+            Console.WriteLine(employee + " quits.");
+        }
     }
 }
