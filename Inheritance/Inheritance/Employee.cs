@@ -13,5 +13,16 @@ namespace Inheritance
         {
             Console.WriteLine(employee + " quits.");
         }
+        public static Employee operator== (Employee employee1, Employee employee2)
+        {
+            if (employee1.Id != employee2.Id)
+            {
+                Console.WriteLine("These are two different employees");
+            }
+            else
+            {
+                Console.WriteLine("This employee has been entered twice.");
+            }
+        }
     }
 }

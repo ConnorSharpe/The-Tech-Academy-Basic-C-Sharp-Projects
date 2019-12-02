@@ -40,7 +40,7 @@ namespace TwentyOne
                 Random random = new Random();
 
                 while(Cards.Count > 0)
-                {
+                { 
                     int randomIndex = random.Next(0, Cards.Count);
                     TempList.Add(Cards[randomIndex]);
                     Cards.RemoveAt(randomIndex);
