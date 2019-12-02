@@ -8,6 +8,6 @@ namespace Inheritance
 {
     interface IQuittable
     {
-        void Quit(Employee employee);
+        void Quit(Employee<string> employee);
     }
 }
