@@ -15,8 +15,8 @@ namespace Enums
                 Console.WriteLine("Please give me a day of the week");
                 string userDay = Console.ReadLine();
                 Enum.IsDefined(typeof(DaysOfTheWeek), userDay);
-               // Assign the value to a variable of that enum data type you just created.
-                
+                // Assign the value to a variable of that enum data type you just created.
+                Console.ReadLine();
             }
             catch (ArgumentException)
             {
