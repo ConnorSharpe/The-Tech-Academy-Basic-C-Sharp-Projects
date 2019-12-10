@@ -10,6 +10,10 @@ namespace variables
     {
         static void Main(string[] args)
         {
+            const string me = "Connor";
+            var lastName = "Sharpe";
+
+            
         }
     }
 }

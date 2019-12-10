@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E605ED84-E4BB-4256-8380-DAE50BD4524A}</ProjectGuid>
+    <ProjectGuid>{E43AB2F1-B8C3-4A3B-95BC-9DE816D70708}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>variables</RootNamespace>
-    <AssemblyName>variables</AssemblyName>
+    <RootNamespace>ExceptionHandling</RootNamespace>
+    <AssemblyName>ExceptionHandling</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Pokemon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
