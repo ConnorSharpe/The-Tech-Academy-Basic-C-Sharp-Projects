@@ -16,7 +16,7 @@ namespace TwentyOne
         public void Deal(List<Card> Hand)
         {
             Hand.Add(Deck.Cards.First());
-            string card = string.Format(Deck.Cards.First().ToString() + "\n");
+            string card = string.Format(Deck.Cards.First().ToString());
             Console.WriteLine(card);
             using (StreamWriter file = new StreamWriter(@"C:\Users\conno\Logs\log.txt", true))
             {
