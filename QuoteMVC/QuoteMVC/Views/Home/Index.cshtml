@@ -1,0 +1,50 @@
+﻿<div class="row no-gutters m-3">
+    <div class="card col-sm-12 col-md-10 col-lg-6 mx-auto shadow">
+        <div class="card-header text-center">
+            <h5 class="m-0">Please enter your information for a quote!</h5>
+        </div>
+        <div class="card-body">
+            @using (Html.BeginForm("GetQuote", "Home", FormMethod.Post))
+            {
+                <div class="row no-gutters">
+                    <div class="form-group col-md-12">
+                        <input name="FirstName" type="text" class="form-control" placeholder="First Name" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="LastName" type="text" class="form-control" placeholder="Last Name" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="EmailAddress" type="email" class="form-control" placeholder="Email" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <p>Date of Birth</p>
+                        <input name="DateOfBirth" type="date" class="form-control" placeholder="Date of Birth" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="CarYear" type="text" class="form-control" placeholder="Car Year" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="CarMake" type="text" class="form-control" placeholder="Car Make" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="CarModel" type="text" class="form-control" placeholder="Car Model" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <p>Have you ever had a DUI?</p>
+                        <input name="DUI" type="checkbox" class="form-control" value="true"/>
+                        <input name="DUI" type="hidden" value="false" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <input name="SpeedingTickets" type="number" placeholder="Number of Speeding Tickets" />
+                    </div>
+                    <div class="form-group col-md-12">
+                        <p>Would you like full coverage?</p>
+                        <input name="FullCoverage" type="checkbox" value="true" class="form-control" />
+                        <input name="FullCoverage" value="false" type="hidden" />
+                    </div>
+                    <button type="submit" class="btn btn-block btn-primary">Submit</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>

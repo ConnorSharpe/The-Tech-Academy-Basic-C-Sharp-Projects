@@ -1,0 +1,44 @@
+﻿@using QuoteMVC.Models
+@model List<Quote>
+
+
+            <h5 class="m-0">Quotes</h5>
+
+        <style>
+            table, td, th {
+                border: 1px solid black;
+                width: 300px;
+            }
+        </style>
+        <table >
+            <tr >
+                <th>First Name<br/></th>
+                <th>Last Name<br/></th>
+                <th>Email<br/></th>
+                <th>Quote<br/></th>
+            </tr>
+            @foreach (var quote in Model)
+            {
+                using (Html.BeginForm("Index", "Home", FormMethod.Post))
+                {
+                    <tr>
+                        <td style="text-align:center">
+                            @quote.FirstName
+                        </td>
+                        <td style="text-align:center">
+                            @quote.LastName
+                        </td>
+                        <td style="text-align:center">
+                            @quote.EmailAddress
+                        </td>
+                        <td style="text-align:center">
+                            @quote.Cost
+                        </td>
+                    </tr>
+                }
+
+            }
+
+        </table>
+    </div>
+</div>
